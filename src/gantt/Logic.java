@@ -28,7 +28,7 @@ public class Logic {
     }
 
     // Compute SJF Preemptive Scheduling
-    public void compute_sjfpre(JTable table) {
+     public void compute_sjfpre(JTable table) {
         List<int[]> process_list = new ArrayList<>();
         for (Map.Entry<Integer, int[]> entry : processes.entrySet()) {
             int[] pData = entry.getValue();
